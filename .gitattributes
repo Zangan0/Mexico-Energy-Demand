@@ -1,3 +1,5 @@
 *.ipynb	diff=jupyternotebook
 *.ipynb	merge=jupyternotebook
 data/processed_data/consolidated_data.csv filter=lfs diff=lfs merge=lfs -text
+*.nc filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
